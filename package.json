@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/akd-io/skal-vi-rede-klimaet-nu/issues"
   },
-  "homepage": "https://github.com/akd-io/skal-vi-rede-klimaet-nu#readme"
+  "homepage": "https://github.com/akd-io/skal-vi-rede-klimaet-nu#readme",
+  "dependencies": {
+    "gatsby": "^2.4.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
 }
