@@ -20,6 +20,7 @@
   "homepage": "https://github.com/akd-io/skal-vi-rede-klimaet-nu#readme",
   "dependencies": {
     "gatsby": "^2.4.3",
+    "normalize.css": "^8.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }
