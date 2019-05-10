@@ -1,0 +1,19 @@
+{
+  "name": "skal-vi-rede-klimaet-nu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akd-io/skal-vi-rede-klimaet-nu.git"
+  },
+  "author": "Anders Kjær Damgaard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akd-io/skal-vi-rede-klimaet-nu/issues"
+  },
+  "homepage": "https://github.com/akd-io/skal-vi-rede-klimaet-nu#readme"
+}
