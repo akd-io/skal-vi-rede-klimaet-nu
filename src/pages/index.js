@@ -1,8 +1,14 @@
 import React from 'react';
 import NormalizedLayout from '../components/NormalizedLayout';
+import Helmet from 'react-helmet';
+import { graphql } from 'gatsby';
 
-export default () => (
+export default ({ data }) => (
   <NormalizedLayout>
+    <Helmet>
+      <title>{data.site.siteMetadata.title}</title>
+      <meta name="description" content={data.site.siteMetadata.description} />
+    </Helmet>
     <div
       style={{
         position: 'absolute',
@@ -26,3 +32,14 @@ export default () => (
     </div>
   </NormalizedLayout>
 );
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+        description
+      }
+    }
+  }
+`;
